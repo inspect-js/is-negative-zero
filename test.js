@@ -16,6 +16,7 @@ test('not negative zero', function (t) {
 	t.notOk(isNegativeZero([]), 'array is not negative zero');
 	t.notOk(isNegativeZero({}), 'object is not negative zero');
 	t.notOk(isNegativeZero(function () {}), 'function is not negative zero');
+	t.notOk(isNegativeZero(-1), '-1 is not negative zero');
 
 	t.end();
 });

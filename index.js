@@ -1,6 +1,6 @@
 "use strict";
 
 module.exports = function isNegativeZero(value) {
-	return Infinity / Number(value) < 0;
+	return Number(value) === 0 && Infinity / Number(value) < 0;
 };
 
