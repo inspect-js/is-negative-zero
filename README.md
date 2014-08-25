@@ -36,11 +36,11 @@ Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-negative-zero
 [2]: http://vb.teelaun.ch/ljharb/is-negative-zero.svg
-[3]: https://travis-ci.org/ljharb/is-negative-zero.png
+[3]: https://travis-ci.org/ljharb/is-negative-zero.svg
 [4]: https://travis-ci.org/ljharb/is-negative-zero
-[5]: https://david-dm.org/ljharb/is-negative-zero.png
+[5]: https://david-dm.org/ljharb/is-negative-zero.svg
 [6]: https://david-dm.org/ljharb/is-negative-zero
-[7]: https://david-dm.org/ljharb/is-negative-zero/dev-status.png
+[7]: https://david-dm.org/ljharb/is-negative-zero/dev-status.svg
 [8]: https://david-dm.org/ljharb/is-negative-zero#info=devDependencies
 [9]: https://ci.testling.com/ljharb/is-negative-zero.png
 [10]: https://ci.testling.com/ljharb/is-negative-zero
