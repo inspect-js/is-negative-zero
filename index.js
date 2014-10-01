@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 module.exports = function isNegativeZero(value) {
 	var number = Number(value);
