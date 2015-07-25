@@ -1,7 +1,6 @@
 'use strict';
 
-module.exports = function isNegativeZero(value) {
-	var number = Number(value);
+module.exports = function isNegativeZero(number) {
 	return number === 0 && (1 / number) === -Infinity;
 };
 

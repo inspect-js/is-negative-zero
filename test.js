@@ -21,12 +21,6 @@ test('not negative zero', function (t) {
 	t.end();
 });
 
-test('things whose valueOf is negative zero', function (t) {
-	t.ok(isNegativeZero({ valueOf: function () { return -0; } }), 'object with valueOf of negative zero is negative zero');
-	t.ok(isNegativeZero('-0'), 'string negative zero is negative zero');
-	t.end();
-});
-
 test('negative zero', function (t) {
 	t.ok(isNegativeZero(-0), 'negative zero is negative zero');
 	t.end();
