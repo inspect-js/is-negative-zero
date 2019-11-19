@@ -41,11 +41,11 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^13.1.1",
+		"@ljharb/eslint-config": "^15.0.2",
 		"auto-changelog": "^1.16.2",
 		"covert": "^1.1.1",
-		"eslint": "^5.12.1",
-		"tape": "^4.9.2"
+		"eslint": "^6.6.0",
+		"tape": "^4.11.0"
 	},
 	"testling": {
 		"files": "test.js",
