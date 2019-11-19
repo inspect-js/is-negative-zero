@@ -2,7 +2,10 @@
 	"name": "is-negative-zero",
 	"version": "2.0.0",
 	"description": "Is this value negative zero? === will lie to you",
-	"author": "Jordan Harband",
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
+	},
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
