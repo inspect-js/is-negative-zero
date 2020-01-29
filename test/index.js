@@ -1,7 +1,7 @@
 'use strict';
 
 var test = require('tape');
-var isNegativeZero = require('./');
+var isNegativeZero = require('../');
 
 test('not negative zero', function (t) {
 	t.notOk(isNegativeZero(), 'undefined is not negative zero');
