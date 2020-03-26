@@ -13,7 +13,7 @@
 		"pretest": "npm run lint",
 		"test": "npm run tests-only",
 		"tests-only": "node test",
-		"posttest": "npx aud",
+		"posttest": "npx aud --production",
 		"coverage": "covert test",
 		"lint": "eslint .",
 		"version": "auto-changelog && git add CHANGELOG.md",
