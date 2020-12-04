@@ -20,12 +20,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/ljharb/is-negative-zero.git"
+		"url": "git://github.com/inspect-js/is-negative-zero.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ljharb/is-negative-zero/issues"
+		"url": "https://github.com/inspect-js/is-negative-zero/issues"
 	},
-	"homepage": "https://github.com/ljharb/is-negative-zero",
+	"homepage": "https://github.com/inspect-js/is-negative-zero",
 	"keywords": [
 		"is",
 		"negative",
