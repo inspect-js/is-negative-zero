@@ -5,6 +5,45 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.0.1](https://github.com/inspect-js/is-negative-zero/compare/v2.0.0...v2.0.1) - 2020-12-04
+
+### Commits
+
+- [Tests] use shared travis-ci configs [`5b92482`](https://github.com/inspect-js/is-negative-zero/commit/5b92482ed26e55e1aafcc6b6310d279958af8204)
+- [Tests] up to `node` `v11.7`, `v10.15`, `v9.11`, `v8.15`, `v7.10`, `v6.16`, `v5.12`, `v4.9`; use `nvm install-latest-npm`; fix test scripts [`0f5d2f8`](https://github.com/inspect-js/is-negative-zero/commit/0f5d2f85ea7fe83de47f39b6b35e489b866d88a7)
+- [Tests] migrate tests to Github Actions [`b80f05a`](https://github.com/inspect-js/is-negative-zero/commit/b80f05adb11a6a3232860fb50272b101aacb504f)
+- [Tests] remove `jscs` [`7ccaf41`](https://github.com/inspect-js/is-negative-zero/commit/7ccaf4100281b614d61d7c9122e6f87943a89295)
+- [meta] add missing changelog [`992bdde`](https://github.com/inspect-js/is-negative-zero/commit/992bddee362cbae71f2cdfd8666f4774b252412e)
+- [readme] fix repo URLs; remove defunct badges [`80fd18d`](https://github.com/inspect-js/is-negative-zero/commit/80fd18d2b0191321afe0e1b572200e4c025eb664)
+- [Tests] run `nyc` on all tests [`df26f14`](https://github.com/inspect-js/is-negative-zero/commit/df26f14b0b854d82b0d3ca7b4949811c9f151357)
+- Update `tape`, `jscs`, `eslint`, `@ljharb/eslint-config` [`d7723aa`](https://github.com/inspect-js/is-negative-zero/commit/d7723aa70e5b478adc36d98e1338abe741c1906a)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`9fdaabe`](https://github.com/inspect-js/is-negative-zero/commit/9fdaabecfdb25e6e860e5007a91b60ee0f20734f)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `covert`, `tape` [`f07eeb2`](https://github.com/inspect-js/is-negative-zero/commit/f07eeb2740037c53f270e95d2f62edc051cafc56)
+- [Dev Deps] update `tape`, `jscs`, `eslint`, `@ljharb/eslint-config` [`bd5c751`](https://github.com/inspect-js/is-negative-zero/commit/bd5c751fa4850ba8726dc1c197ed6c843a227b05)
+- [actions] add automatic rebasing / merge commit blocking [`5666a91`](https://github.com/inspect-js/is-negative-zero/commit/5666a917db6bdcee63c0a3e28e5e281359975abc)
+- [meta] add `auto-changelog` [`f70fb2b`](https://github.com/inspect-js/is-negative-zero/commit/f70fb2b5b9ea53dc52729310717553648292189e)
+- [actions] add "Allow Edits" workflow [`2b040a8`](https://github.com/inspect-js/is-negative-zero/commit/2b040a87d362f17d8cab2b0d48058b80e426ad4e)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape`; add `safe-publish-latest` [`09e2e53`](https://github.com/inspect-js/is-negative-zero/commit/09e2e537390225c1d1a6912be64267eaec6ea367)
+- [Tests] use `npm audit` instead of `nsp` [`7df2669`](https://github.com/inspect-js/is-negative-zero/commit/7df2669013ac9328d424e9d8c82a53a0458f0888)
+- [Tests] up to `io.js` `v3.3`, `node` `v4.1` [`4ff97c5`](https://github.com/inspect-js/is-negative-zero/commit/4ff97c5891c7a241a91c03fb54bd83e78570ef22)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog` [`9e8cb7b`](https://github.com/inspect-js/is-negative-zero/commit/9e8cb7bca46d325ecf202187c0fde7da8722bcab)
+- [Dev Deps] update `jscs`, `eslint`, `@ljharb/eslint-config`, `nsp` [`70b9888`](https://github.com/inspect-js/is-negative-zero/commit/70b988802a99c84ab7eb8da287bb8ff0efc5c055)
+- [Dev Deps] update `jscs` [`59d0c42`](https://github.com/inspect-js/is-negative-zero/commit/59d0c42131020b74e68fd444798b9a3bf247fb2d)
+- Add `npm run security` [`eb418ed`](https://github.com/inspect-js/is-negative-zero/commit/eb418ed7e79216808c206388fbd360cc7a75655f)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape` [`86a758d`](https://github.com/inspect-js/is-negative-zero/commit/86a758d42eb7d17a18f7f584c337d8820b842758)
+- Only apps should have lockfiles [`a0ab621`](https://github.com/inspect-js/is-negative-zero/commit/a0ab6215590bf6adb3eaf1ff9e7c036d72e807ec)
+- [Tests] use `npx aud` instead of `nsp` or `npm audit` with hoops [`5c51349`](https://github.com/inspect-js/is-negative-zero/commit/5c513498fc5a8b2fd06f5e0c1b38b8e93c3477ac)
+- [meta] add `funding` field [`1d0b2f4`](https://github.com/inspect-js/is-negative-zero/commit/1d0b2f43bf5bf75176859a440346b3e338ee510e)
+- [actions] switch Automatic Rebase workflow to `pull_request_target` event [`9b12367`](https://github.com/inspect-js/is-negative-zero/commit/9b12367706f1c269a3df406c8e2c211558671a15)
+- [Dev Deps] update `auto-changelog`, `tape` [`6d98b8d`](https://github.com/inspect-js/is-negative-zero/commit/6d98b8d1f512c3844d4062215c793070084d1164)
+- [Dev Deps] Update `tape`, `eslint` [`a258cdb`](https://github.com/inspect-js/is-negative-zero/commit/a258cdb86691725482d1d43a1f9e7953c3c6733f)
+- [Dev Deps] update `auto-changelog`; add `aud` [`2ca2afb`](https://github.com/inspect-js/is-negative-zero/commit/2ca2afb9efef4ebc8b3c19046ab1ab3ad516ea9a)
+- Test up to `io.js` `v3.0` [`1254ae8`](https://github.com/inspect-js/is-negative-zero/commit/1254ae80b7706616331ac914654d7a17bff31039)
+- [Dev Deps] update `auto-changelog` [`4b54722`](https://github.com/inspect-js/is-negative-zero/commit/4b547228fceaae8f9eccabc9ad8a49046492348d)
+- [Tests] only audit prod deps [`86d298b`](https://github.com/inspect-js/is-negative-zero/commit/86d298b56db90f81617ee5d942476eda34afb374)
+- [Dev Deps] update `tape` [`3a47e27`](https://github.com/inspect-js/is-negative-zero/commit/3a47e2730f889539f666ef0eb09a93fb9c80bfd1)
+- Switch from vb.teelaun.ch to versionbadg.es for the npm version badge SVG. [`128d9bd`](https://github.com/inspect-js/is-negative-zero/commit/128d9bd4c12385fb5e478ac3dd3138fa4360a777)
+
 ## [v2.0.0](https://github.com/inspect-js/is-negative-zero/compare/v1.0.0...v2.0.0) - 2015-07-24
 
 ### Commits
