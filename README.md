@@ -36,7 +36,7 @@ assert.ok(isNegativeZero(-0));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-negative-zero
-[2]: http://versionbadg.es/inspect-js/is-negative-zero.svg
+[2]: https://versionbadg.es/inspect-js/is-negative-zero.svg
 [3]: https://travis-ci.org/inspect-js/is-negative-zero.svg
 [4]: https://travis-ci.org/inspect-js/is-negative-zero
 [5]: https://david-dm.org/inspect-js/is-negative-zero.svg
@@ -44,8 +44,8 @@ Simply clone the repo, `npm install`, and run `npm test`
 [7]: https://david-dm.org/inspect-js/is-negative-zero/dev-status.svg
 [8]: https://david-dm.org/inspect-js/is-negative-zero#info=devDependencies
 [11]: https://nodei.co/npm/is-negative-zero.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/is-negative-zero.svg
+[license-image]: https://img.shields.io/npm/l/is-negative-zero.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/is-negative-zero.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=is-negative-zero
+[downloads-image]: https://img.shields.io/npm/dm/is-negative-zero.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=is-negative-zero
 
