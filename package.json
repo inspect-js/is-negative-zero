@@ -1,6 +1,6 @@
 {
 	"name": "is-negative-zero",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "Is this value negative zero? === will lie to you",
 	"author": "Jordan Harband <ljharb@gmail.com>",
 	"funding": {
